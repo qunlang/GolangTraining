@@ -11,4 +11,5 @@ func makeGreeter() func() string {
 func main() {
 	greet := makeGreeter()
 	fmt.Println(greet())
+	fmt.Println(makeGreeter())
 }

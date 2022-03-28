@@ -5,10 +5,10 @@ import "fmt"
 var x = 42
 
 func main() {
-	fmt.Println(x)
+	fmt.Println("main: ", x)
 	foo()
 }
 
 func foo() {
-	fmt.Println(x)
+	fmt.Println("foo: ", x)
 }

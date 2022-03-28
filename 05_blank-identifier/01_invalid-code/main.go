@@ -6,5 +6,6 @@ func main() {
 	a := "stored in a"
 	b := "stored in b"
 	fmt.Println("a - ", a)
+	fmt.Println("b - ", b)
 	// b is not being used - invalid code
 }

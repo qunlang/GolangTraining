@@ -2,6 +2,9 @@ package main
 
 import "fmt"
 
+/**
+这个理解不了
+*/
 func wrapper() func() int {
 	var x int
 	return func() int {

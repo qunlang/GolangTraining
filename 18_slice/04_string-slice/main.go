@@ -14,6 +14,12 @@ func main() {
 		"Gutten morgen!",
 	}
 
+	fmt.Println("-----------------")
+	fmt.Println(greeting)
+	fmt.Println(len(greeting))
+	fmt.Println(cap(greeting))
+	fmt.Println("-----------------")
+
 	for i, currentEntry := range greeting {
 		fmt.Println(i, currentEntry)
 	}

@@ -14,7 +14,7 @@ func BenchmarkHello(b *testing.B) {
 			counter += i
 		}
 	}
-	fmt.Println(counter)
+	fmt.Println("counter: ", counter)
 }
 
 // run this at command:

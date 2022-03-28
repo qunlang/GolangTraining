@@ -2,6 +2,9 @@ package main
 
 import "fmt"
 
+/**
+看不太懂大括号
+*/
 func main() {
 	x := 42
 	fmt.Println(x)
